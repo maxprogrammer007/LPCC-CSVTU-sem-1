@@ -1,3 +1,5 @@
+/* Assignment 2 problem 2 - A six faced die is rolled 600 times. Find the
+frequency of the occurrence of each face?*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
