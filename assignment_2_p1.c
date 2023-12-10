@@ -1,3 +1,7 @@
+/* Read from user ages of all students in class and
+save them in an array which can store floating
+point and find average, minimum and maximum
+age.*/
 #include <stdio.h>
 
 int main() {
