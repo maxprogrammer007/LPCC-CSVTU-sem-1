@@ -25,7 +25,7 @@ int main() {
     
     int marks[numStudents];
 
-    // Read marks from the user
+    // Read marks from the user ok
     printf("Enter the marks of students:\n");
     for (int i = 0; i < numStudents; ++i) {
         printf("Student %d: ", i + 1);
