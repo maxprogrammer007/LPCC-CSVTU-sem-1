@@ -7,7 +7,7 @@ main()
     char *p;
     p=str;
     printf("Enter the string..?\n");
-    scanf("%s",p);
+    gets(str);
     int x=strlen(p);
     printf("Length of string is=%d\n",x);
 
