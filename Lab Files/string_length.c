@@ -1,6 +1,6 @@
 // FIND THE LENGTH OF THE STRING USING THE POINTER.
 #include<stdio.h>
-main()
+int main()
 {
     int strlen(char *);
     char str[100];
@@ -23,3 +23,4 @@ int strlen(char *p)
     }
     return(c);
 }
+
