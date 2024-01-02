@@ -1,26 +1,27 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<math.h>
 
-int main()
+int main () {
+
+int a;
+
+printf("Enter the number");
+scanf("%d",&a);
+
+if(a == 1 || a == 0 || a < 0)
+printf("not defined");
+else 
 {
-    int num;
-    printf(" enter any number :");
-    scanf("%d", &num);
-    if (num == 0 || num == 1 || num < 0)
-    {
-        printf("Primes are not defined for negative / zero or 1");
-    }
-    for (int i = 2 ; i <= num/2 ; i++)
-    {
-        if (num % i != 0)
-        {
-            printf("The given number is  prime");
-            
-            
-        }
-        else
-        printf("The given number is not prime");
-        i = i + 1;
-        break;
-    }
-    return 0;
+	for( int i = sqrt(a) ; i >=2 ; i--) {
+	if(a % i == 0 ){
+		printf("Given Number is not prime .");
+		break;
+	}
+	else{
+		printf("Given number is prime.");
+		break;
+}
+}
+}
+return 0;
 }
