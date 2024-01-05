@@ -8,7 +8,7 @@ int main() {
     
     printf("Minimum double value = %e\n", DBL_MIN);
     printf("Maximum double value = %e\n", DBL_MAX);
-    printf("Size of double in bytes = %zu\n", sizeof(double));
+    printf("Size of double in bytes = %zu\n \t", sizeof(double));
     
     return 0;
 }
