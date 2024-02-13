@@ -4,6 +4,7 @@
 int main()
 {
     char str[100];
+    puts("Enter the string");
     gets(str);
 
     int length = strlen(str)/4;
