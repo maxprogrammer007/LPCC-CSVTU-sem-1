@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+
+char *repeat(char *string, int repeats);
 
 int main()
 {
     char str[100];
-    puts("Enter the string");
     gets(str);
 
     int length = strlen(str)/4;
@@ -26,4 +28,10 @@ int main()
     }
 
     return 0;
+}
+
+
+char *repeat(char *string, int repeats)
+{
+    
 }
