@@ -7,7 +7,7 @@ void main()
     days[0] = "Sunday";
     days[1] = "Monday";
     days[2] = "Tuesday";
-    days[3] = "Wednesday";
+    days[3] = "Wednesday hello";
     days[4] = "Thursday";
     days[5] = "Friday";
     days[6] = "Saturday";
